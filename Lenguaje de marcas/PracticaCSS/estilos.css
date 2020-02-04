@@ -1,0 +1,37 @@
+#title{
+	border: 2px solid black;
+	text-align: center;
+}
+#content{
+	border: 2px solid black;
+	margin: auto;
+	padding: 5px;
+	text-align: center;	
+	width: auto;
+	height: ;
+}
+
+#foto{
+	border: 2px solid black;
+	padding: 5px;
+	width: 550px;	
+}
+
+#logo{
+	width: 500px;
+	padding: 0px;
+}
+
+#parrafo{
+	border: 2px solid black;
+	font-size: 16px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 2%;
+}
+body{
+	background-image: url("fondoabstracto.jpg");
+	font-family: 'Dosis', sans-serif;
+	background-size: cover;
+}

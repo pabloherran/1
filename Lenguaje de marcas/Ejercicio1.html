@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Dosis:700&display=swap" rel="stylesheet">
+
+
+<head>
+	<meta charset=”UTF-8” >
+	<title></title>
+	<style type="text/css">
+
+		body{
+			font-family: 'Dosis', sans-serif;
+		}
+
+		#nombre{
+			padding-left: 32px;
+		}
+
+		#apellido1{
+			padding-left: 23px;
+		}
+
+		#apellido2{
+			padding-left: 20px;
+		}
+
+		#telefono{
+			padding-left: 28px;
+		}
+
+		#fecNac{
+			padding-left: 5px;
+		}
+
+	</style>
+</head>
+
+
+<body>
+	<form action="Ejercicio1.html" method="get">
+		<fieldset> 
+			<legend> DATOS PERSONALES </legend>
+				<div id="nombre">
+					<label for="nombre"> Nombre: </label>
+					<input type="text" name="nombre"> 
+					<br>
+				</div> 
+			
+				<div id="apellido1">
+					<label for="apellido1"> Apellido 1: </label>
+					<input type="text" name="apellido1">  
+					<br>
+				</div>
+
+				<div id="apellido2">
+					<label for="apellido2"> Apellido 2: </label>
+					<input type="text" name="apellido2">  
+					<br>
+				</div>
+
+				<div id="telefono">
+					<label for="telefono"> Teléfono: </label>
+					<input type="text" name="telefono">  
+					<br>
+				</div>
+
+				<div id="Fecha de nacimiento">
+					<label for="Fecha de nacimiento"> Fecha de nacimiento: </label>
+					<input type="text" name="Fecha de nacimiento">  
+					<br>
+				</div>
+				
+				<div>
+					<label for="provincias"> Provincias: </label>
+					<select name="provincias"> 
+
+					<optgroup label="Selecciona una provincia">
+						<option> Selecciona una provincia </option>
+					</optgroup>
+
+					<optgroup label="Andalucía"> 
+						<option value="AL"> Almería </option>
+						<option value="AL"> Granada </option>
+						<option value="AL"> Málaga </option>
+						<option value="AL"> Cádiz </option>
+						<option value="AL"> Huelva </option>
+						<option value="AL"> Sevilla </option>
+						<option value="AL"> Córdoba </option>	
+						<option value="AL"> Jaén </option>					
+					</optgroup>
+
+					<optgroup label="Murcia">
+						<option value="MUR"> Murcia </option>
+					</optgroup>
+
+					<optgroup label="Castilla-La Mancha">
+						<option value="CLM"> Guadalajara </option>
+						<option value="CLM"> Toledo </option>
+						<option value="CLM"> Cuenca </option>
+						<option value="CLM"> Albacete </option>
+						<option value="CLM"> Ciudad Real </option>
+					</optgroup>
+
+					<optgroup label="Comunidad Valenciana">
+						<option value="VAL"> Castellón </option>
+						<option value="VAL"> Valencia </option>
+						<option value="VAL"> Alicante </option>
+					</optgroup>
+
+					<optgroup label="Islas Baleares">
+						<option value="IB"> Mallorca </option>
+						<option value="IB"> Menorca </option>
+						<option value="IB"> Ibiza </option>
+						<option value="IB"> Formentera </option>
+
+					</optgroup>
+
+					<optgroup label="Comunidad de Madrid">
+						<option value="MAD"> Madrid </option>
+					</optgroup>
+
+					<optgroup label="Castilla y León">
+						<option value="CL"> León </option>
+						<option value="CL"> Palencia </option>
+						<option value="CL"> Burgos </option>
+						<option value="CL"> Soria </option>
+						<option value="CL"> Zamora </option>
+						<option value="CL"> Valldolid </option>
+						<option value="CL"> Segovia </option>
+						<option value="CL"> Ávila </option>
+						<option value="CL"> Salamanca </option>
+					</optgroup>
+
+					<optgroup label="Aragón">
+						<option value="AR"> Huesca </option>
+						<option value="AR"> Zaragoza </option>
+						<option value="AR"> Teruel </option>
+					</optgroup>
+
+					<optgroup label="Cataluña">
+						<option value="CAT"> LLeida </option>
+						<option value="CAT"> Gerona </option>
+						<option value="CAT"> Barcelona </option>
+						<option value="CAT"> Tarragona </option>
+					</optgroup>
+
+					<optgroup label="La Rioja">
+						<option value="LR"> La Rioja </option>
+					</optgroup>
+
+					<optgroup label="Navarra">
+						<option value="NAV"> Navarra </option>
+					</optgroup>
+
+					<optgroup label="País Vasco">
+						<option value="PV"> Guipuzcoa </option>
+						<option value="PV"> Vizcaya </option>
+						<option value="PV"> Álava </option>
+					</optgroup>
+
+					<optgroup label="Cantabria">
+						<option value="CAN"> Cantabria </option>
+					</optgroup>
+
+					<optgroup label="Asturias">
+						<option value="AST"> Asturias </option>
+					</optgroup> 
+
+					<optgroup label="Galicia">
+						<option value="GAL"> La Coruña </option>
+						<option value="GAL"> Lugo </option>
+						<option value="GAL"> Orense </option>
+						<option value="GAL"> Pontevedra </option>
+					</optgroup>
+
+					<optgroup label="Islas Canárias">
+						<option value="IC"> La Palma </option>
+						<option value="IC"> La Gomera </option>
+						<option value="IC"> El Hierro </option>
+						<option value="IC"> Tenerife </option>
+						<option value="IC"> Gran Canaria </option>
+						<option value="IC"> Fuerteventura </option>
+						<option value="IC"> Lanzarote </option>
+					</optgroup>
+
+					<optgroup label="Ceuta">
+						<option value="CEU"> Ceuta </option>
+					</optgroup>
+
+					<optgroup label="Melilla">
+						<option value="MEL"> Melilla </option>
+					</optgroup>
+					</select>
+				</div>
+				<input type="submit">
+		</fieldset>
+
+		<fieldset>
+			<legend> EDAD </legend>
+				<p>
+					20-39
+					<input type="radio" name="EDAD">
+				</p>
+				<p>
+					40-59
+					<input type="radio" name="EDAD">
+				</p>
+				<p>
+					60-79
+					<input type="radio" name="EDAD">
+				</p>
+
+				<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>

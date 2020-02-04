@@ -1,0 +1,47 @@
+/* mostrar todos los bordes de la tabla con el tamaño, estilo y color que elija */
+td{
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+/* Utilizando únicamente peudoclases da color de fondo verde a las casillas que contienen horas */
+
+
+
+/* Utilizando únicamente pseudoclases da color de fondo amarillo a la celda de recreo */
+
+
+
+/* Cambiar los estado de los enlaces para que:
+
+ Nunca estén subrayados
+ Si están visitados se muestren en rojo
+ Si no están visitado se muestren en verde */
+a:link {
+  color: red;
+}
+
+
+
+/* Utilizando pseudoclases hacer que cuando pasemos el ratón sobre la columna del viernes
+aumente el tamaño de letra al doble */
+
+
+
+/* Utilizando pseudoelementos Haz que la primera letra de los días tenga el doble de tamaño*/
+
+
+
+/* Añade un borde rojo, con espacio en su interior superior a 5px, a los campos obligatorios */
+
+
+
+/* Añade un * en rojo detrás de las etiquetas */
+
+
+
+
+a:: after{
+	content: "haga click";
+}
